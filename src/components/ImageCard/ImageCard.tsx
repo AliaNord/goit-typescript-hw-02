@@ -13,7 +13,7 @@ const ImageCard: React.FC<Props> = ({ item, onClick }) => {
       <img
         src={item.urls.small}
         alt={item.slug}
-        onClick={(): void => onClick(item.urls.regular)}
+        onClick={() => onClick(item.urls.regular)}
         style={{ cursor: "pointer" }}
       />
     </li>
