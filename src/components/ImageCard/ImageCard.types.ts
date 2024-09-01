@@ -1,0 +1,1 @@
+export type onClickHandler = (urls: string) => void
